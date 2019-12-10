@@ -6,7 +6,51 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c52cd86c-3c19-44d4-90f6-2d8548e7b9f6" name="Default Changelist" comment="" />
+    <list default="true" id="c52cd86c-3c19-44d4-90f6-2d8548e7b9f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_5__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tier3Java/.idea/libraries/MyDatabase.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tier3Java/MyDatabase.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tier3Java/out/production/Tier3Java/Model/Domain/Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tier3Java/out/production/Tier3Java/Model/Domain/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tier3Java/out/production/Tier3Java/Model/Domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tier3Java/out/production/Tier3Java/Model/Mediator/Database.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tier3Java/out/production/Tier3Java/Model/Mediator/Model.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tier3Java/out/production/Tier3Java/Model/Mediator/Package.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/DesignTimeBuild/.dtbcache" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/DesignTimeBuild/.dtbcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/v16/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/v16/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/v16/Server/sqlite3/storage.ide-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/v16/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/v16/Server/sqlite3/storage.ide-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/GreetingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Domain/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Mediator/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Mediator/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Mediator/ModelManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Mediator/ModelManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Mediator/SocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Mediator/SocketClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Tier2Java.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main/GreetingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main/GreetingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Mediator/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Mediator/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Mediator/ModelManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Mediator/ModelManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Mediator/ModelManager$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Mediator/ModelManager$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Mediator/ModelManager$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Mediator/ModelManager$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Mediator/ModelManager$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Mediator/ModelManager$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Mediator/ModelManager$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Mediator/ModelManager$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Mediator/ModelManager$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Mediator/ModelManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Mediator/ModelManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Mediator/SocketClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Mediator/SocketClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier3Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier3Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier3Java/Tier3Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier3Java/Tier3Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier3Java/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier3Java/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier3Java/src/Model/Domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier3Java/src/Model/Domain/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier3Java/src/Model/Mediator/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier3Java/src/Model/Mediator/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier3Java/src/Model/Mediator/ModelManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier3Java/src/Model/Mediator/Receiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier3Java/src/Model/Mediator/SocketClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier3Java/src/Model/Server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier3Java/src/Model/Server/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier3Java/src/Model/Server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier3Java/src/Model/Server/Server.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +64,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -36,14 +83,19 @@
     </option>
   </component>
   <component name="ProjectId" id="1UTI4AxKUditQONEbKrJVozQV5S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/Soft Eng/SEPP3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -135,7 +187,7 @@
       </method>
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="Tier2Java" />
+      <module name="tier2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Main.*" />
@@ -143,6 +195,7 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="Main.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -317,10 +370,25 @@
       <workItem from="1575800514236" duration="7447000" />
       <workItem from="1575837254808" duration="1948000" />
       <workItem from="1575886362544" duration="1269000" />
+      <workItem from="1575988449287" duration="6060000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

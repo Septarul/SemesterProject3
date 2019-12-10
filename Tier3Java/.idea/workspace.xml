@@ -2,7 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4dae1e1-f750-42be-9807-145cdf0339d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Tier2Java/.idea/libraries/gson_2_8_5__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyDatabase.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tier3Java/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tier3Java/Model/Domain/Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tier3Java/Model/Domain/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tier3Java/Model/Domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tier3Java/Model/Mediator/Adaptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tier3Java/Model/Mediator/Database.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tier3Java/Model/Mediator/Model.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tier3Java/Model/Mediator/Package.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tier3Java/Model/Server/ClientHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Tier3Java/Model/Server/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/DesignTimeBuild/.dtbcache" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/DesignTimeBuild/.dtbcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/config/applicationhost.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/v16/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/v16/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/v16/Server/sqlite3/storage.ide-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/v16/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/v16/Server/sqlite3/storage.ide-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/BlazorWebApp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/BlazorWebApp.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/Model/Domain/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/Model/Domain/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/Pages/Counter.razor" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/Pages/Counter.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/Pages/NinjaPage.razor" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/Pages/NinjaPage.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/Pages/Products.razor" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/Pages/Products.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/bin/Debug/netcoreapp3.0/BlazorWebApp.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/bin/Debug/netcoreapp3.0/BlazorWebApp.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/bin/Debug/netcoreapp3.0/BlazorWebApp.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/bin/Debug/netcoreapp3.0/BlazorWebApp.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/bin/Debug/netcoreapp3.0/BlazorWebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/bin/Debug/netcoreapp3.0/BlazorWebApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/bin/Debug/netcoreapp3.0/BlazorWebApp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/bin/Debug/netcoreapp3.0/BlazorWebApp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/bin/Debug/netcoreapp3.0/BlazorWebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/bin/Debug/netcoreapp3.0/BlazorWebApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/bin/Debug/netcoreapp3.0/BlazorWebApp.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/bin/Debug/netcoreapp3.0/BlazorWebApp.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/BlazorWebApp.RazorComponent.input.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/BlazorWebApp.RazorComponent.input.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/BlazorWebApp.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/BlazorWebApp.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/BlazorWebApp.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/BlazorWebApp.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/BlazorWebApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/BlazorWebApp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/BlazorWebApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/BlazorWebApp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/BlazorWebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/BlazorWebApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/BlazorWebApp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/BlazorWebApp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/BlazorWebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/BlazorWebApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/App.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/App.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Account/Login.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Account/Login.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Account/LoginRequester.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Account/LoginRequester.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Account/LogoutRequester.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Account/LogoutRequester.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Account/Manage.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Account/Manage.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Account/Register.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Account/Register.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Counter.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Counter.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Error.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Error.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/FetchData.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/FetchData.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Index.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Index.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/NinjaPage.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/NinjaPage.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Products.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/Products.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/SecretPage.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/SecretPage.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/TestSubmit.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/TestSubmit.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/_Host.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Pages/_Host.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Shared/LoginDisplay.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Shared/LoginDisplay.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Shared/MainLayout.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Shared/MainLayout.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Shared/NavMenu.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/Shared/NavMenu.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/_Imports.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/Razor/_Imports.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/RazorDeclaration/BlazorWebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/RazorDeclaration/BlazorWebApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/RazorDeclaration/BlazorWebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/RazorDeclaration/BlazorWebApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Counter.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Counter.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/NinjaPage.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/NinjaPage.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Products.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Products.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier2Java/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier2Java/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier2Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier2Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier2Java/src/main/java/Main/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier2Java/src/main/java/Main/GreetingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier2Java/src/main/java/Model/Domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier2Java/src/main/java/Model/Domain/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier2Java/src/main/java/Model/Mediator/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier2Java/src/main/java/Model/Mediator/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier2Java/src/main/java/Model/Mediator/ModelManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier2Java/src/main/java/Model/Mediator/ModelManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier2Java/src/main/java/Model/Mediator/SocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier2Java/src/main/java/Model/Mediator/SocketClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier2Java/target/classes/META-INF/Tier2Java.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier2Java/target/classes/Main/GreetingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier2Java/target/classes/Main/GreetingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier2Java/target/classes/Model/Domain/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier2Java/target/classes/Model/Domain/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier2Java/target/classes/Model/Mediator/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier2Java/target/classes/Model/Mediator/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier2Java/target/classes/Model/Mediator/ModelManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier2Java/target/classes/Model/Mediator/ModelManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier2Java/target/classes/Model/Mediator/ModelManager$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier2Java/target/classes/Model/Mediator/ModelManager$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier2Java/target/classes/Model/Mediator/ModelManager$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier2Java/target/classes/Model/Mediator/ModelManager$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier2Java/target/classes/Model/Mediator/ModelManager$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier2Java/target/classes/Model/Mediator/ModelManager$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier2Java/target/classes/Model/Mediator/ModelManager$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier2Java/target/classes/Model/Mediator/ModelManager$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier2Java/target/classes/Model/Mediator/ModelManager$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier2Java/target/classes/Model/Mediator/ModelManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier2Java/target/classes/Model/Mediator/ModelManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier2Java/target/classes/Model/Mediator/SocketClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier2Java/target/classes/Model/Mediator/SocketClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tier3Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tier3Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Domain/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Mediator/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Mediator/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Mediator/ModelManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Mediator/Receiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Mediator/SocketClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Server/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Server/Server.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +114,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tier2Java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sprite\Desktop\SEP3\SemesterProject3\Tier3Java" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sprite\Desktop\Tier3Java\src" />
       <recent name="C:\Users\Sprite\Desktop\Tier3Java" />
@@ -46,6 +138,20 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Tier3Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -64,6 +170,7 @@
       <workItem from="1575896437009" duration="9811000" />
       <workItem from="1575917795469" duration="1215000" />
       <workItem from="1575971587561" duration="1199000" />
+      <workItem from="1575988424918" duration="5284000" />
     </task>
     <servers />
   </component>

@@ -1,89 +1,98 @@
 package Model.Domain;
 
 public class Item {
-    private int Id;
-    private String Name;
-    private String Category;
-    private float Price;
-    private String Description;
-    private String Url;
-    private int Quantity;
-    private String Quantitytype;
-    private int Nrofitems;
+    private int id;
+    private String name;
+    private String category;
+    private float price;
+    private String description;
+    private String url;
+    private int quantity;
+    private String quantitytype;
+    private int nrofitems;
 
+    public Item(){}
     public Item(int id, String name, String category, Float price, String description, String url,int quantity,String quantitytype,int nrofitems) {
-        this.Id = id;
-        this.Name = name;
-        this.Category = category;
-        this.Price = price;
-        this.Url=url;
-        this.Description = description;
-        this.Quantity=quantity;
-        this.Quantitytype=quantitytype;
-        this.Nrofitems = nrofitems;
+        this.id = id;
+        this.name = name;
+        this.category = category;
+        this.price = price;
+        this.description = description;
+        this.url=url;
+        this.quantity=quantity;
+        this.quantitytype=quantitytype;
+        this.nrofitems = nrofitems;
     }
 
     public int getId() {
-        return Id;
+        return id;
     }
 
     public void setId(int id) {
-        Id = id;
+        this.id = id;
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
 
     public String getCategory() {
-        return Category;
+        return category;
     }
 
     public void setCategory(String category) {
-        Category = category;
+        this.category = category;
     }
 
     public float getPrice() {
-        return Price;
+        return price;
     }
 
     public void setPrice(float price) {
-        Price = price;
+        this.price = price;
     }
 
     public String getDescription() {
-        return Description;
+        return description;
     }
 
     public void setDescription(String description) {
-        Description = description;
+        this.description = description;
     }
 
     public String getUrl() {
-        return Url;
-    }
-    public int getQuantity() {
-        return Quantity;
-    }
-    public String getQuantitytype(){
-        return Quantitytype;
+        return url;
     }
 
     public void setUrl(String url) {
-        Url = url;
+        this.url = url;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public String getQuantitytype() {
+        return quantitytype;
+    }
+
+    public void setQuantitytype(String quantitytype) {
+        this.quantitytype = quantitytype;
     }
 
     public int getNrofitems() {
-        return Nrofitems;
+        return nrofitems;
     }
 
     public void setNrofitems(int nrofitems) {
-        Nrofitems = nrofitems;
+        this.nrofitems = nrofitems;
     }
-
-
 }

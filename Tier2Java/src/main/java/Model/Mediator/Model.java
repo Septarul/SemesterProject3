@@ -20,11 +20,9 @@ public interface Model {
     boolean addOrder(Order order);
     boolean updateUser(User user,int id);
     boolean updateItem(Item item,int id);
-    boolean restockItem(int id,int nrofitems);
     boolean updateOrderDetails(Order order,int id);
     ArrayList<Item> getOrderItems(int Orderid);
     ArrayList<Order> getUsersOrders(int Userid);
-    ArrayList<User> getNormalUsers();
     boolean deleteOrder(int id);
     boolean deleteUser(int id);
     boolean deleteItem(int id);

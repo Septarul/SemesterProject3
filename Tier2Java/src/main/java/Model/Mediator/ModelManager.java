@@ -5,6 +5,7 @@ import Model.Domain.Order;
 import Model.Domain.User;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
 
@@ -20,22 +21,11 @@ public class ModelManager implements Model {
 
     public ModelManager() {
         mapper = new ObjectMapper();
+        mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
         gson = new Gson();
-      //  this.socket = new SocketClient(this);
+       this.socket = new SocketClient();
         System.out.println("Model constructor");
 
-    }
-
-
-    public User findById(int id) {
-        return null;
-    }
-
-    public void deleteById(int id) {
-    }
-
-    public User add(User newUser) {
-        return null;
     }
 
     @Override
@@ -210,7 +200,6 @@ public class ModelManager implements Model {
         return false;
     }
 
-
     @Override
     public boolean updateOrderDetails(Order order, int id) {
         String orderjson = gson.toJson(order);
@@ -252,25 +241,6 @@ public class ModelManager implements Model {
                 orders = mapper.readValue(response.getJson(), new TypeReference<ArrayList<Order>>() {
                 });
                 return orders;
-            } catch (JsonProcessingException e) {
-                e.printStackTrace();
-            }
-            return null;
-        }
-        return null;
-    }
-
-    @Override
-    public ArrayList<User> getNormalUsers() {
-        ArrayList<User> users;
-        Package pack = new Package("GET", "NORMAL_USERS");
-        String request = gson.toJson(pack);
-        Package response = socket.sendAndReceive(request);
-        if (response != null) {
-            try {
-                users = mapper.readValue(response.getJson(), new TypeReference<ArrayList<User>>() {
-                });
-                return users;
             } catch (JsonProcessingException e) {
                 e.printStackTrace();
             }

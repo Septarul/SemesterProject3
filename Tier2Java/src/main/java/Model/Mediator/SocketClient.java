@@ -16,14 +16,13 @@ public class SocketClient {
     private OutputStream output;
     private static SocketClient instance;
 
-    public SocketClient(ModelManager model) {
+    public SocketClient() {
         try {
             gson=new Gson();
             Socket socket = new Socket(HOST, PORT);
             input = socket.getInputStream();
             output = socket.getOutputStream();
-            Thread th = new Thread(new Receiver(input, model));
-            th.start();
+
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -40,8 +39,6 @@ public class SocketClient {
         }
         return null;
     }
-
-
 
        /* public synchronized static SocketClient getInstance(){
             if (instance== null){

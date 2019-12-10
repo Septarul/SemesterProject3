@@ -21,12 +21,6 @@ public class GreetingController {
     private Gson gson=new Gson();
 
 
-    @GetMapping("/users/{id}")
-    @ResponseBody
-    public User one(@PathVariable int id) {
-        return model.findById(id);
-    }
-
     @RequestMapping(value = "/greeting", method = RequestMethod.GET)
     public String greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
         //User user=new User(2,"userr","full","ema","parolas","user");
@@ -58,10 +52,13 @@ public class GreetingController {
         return model.getAllOrders();
     }
 
+   /*
     @GetMapping("/orders")
     public ArrayList<Order> getUsersOrders(@RequestParam(required = true, defaultValue = "0") Integer id) {
         return model.getUsersOrders(id);
     }
+
+    */
 
     @PostMapping("/orders/{id}")
     public boolean addOrder(@RequestBody String newOrder) {
@@ -70,6 +67,7 @@ public class GreetingController {
     }
 
     @GetMapping("/items")
+    @ResponseBody
     public ArrayList<Item> getAllItems() {
         return model.getAllItems();
     }
@@ -93,15 +91,16 @@ public class GreetingController {
     }
 
     @PutMapping("/users/{id}")
-    public User replaceEmployee(@RequestBody User newUser, @PathVariable int id) {
+    public boolean replaceEmployee(@RequestBody User newUser, @PathVariable int id) {
         User old = model.getUserById(id);
         if (old != null) {
             old.setEmail(newUser.getEmail());
-            return model.findById(id);
+            return model.updateUser(newUser,id);
         } else {
             newUser.setId(id);
             User nn = newUser;
-            return nn;
+            return false;
+
         }
     }
 
@@ -110,10 +109,10 @@ public class GreetingController {
         return model.deleteUser(id);
     }
 
-    @DeleteMapping("/users/{id}")
+    @DeleteMapping("/items/{id}")
     public boolean deleteItem(@PathVariable int id) { return model.deleteItem(id); }
 
-    @DeleteMapping("/users/{id}")
+    @DeleteMapping("/orders/{id}")
     public boolean deleteOrder(@PathVariable int id) {
         return model.deleteItem(id);
     }

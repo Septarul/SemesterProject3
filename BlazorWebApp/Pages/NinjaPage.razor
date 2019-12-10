@@ -1,4 +1,63 @@
 @page "/ninjapage"
-@attribute [Authorize(Policy = "MustBeNinja") ]
+@using BlazorWebApp.Model.Domain
+@using System.Net.Http.Headers
+@using System.Runtime.Serialization.Json
+@inject IDataLayer DataLayer
 
-<p>This page can be viewed by ninjas</p>
+
+<h1>All trophies</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Item</th>
+            <th>Source</th>
+            <th>Cool Factor</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var t in items)
+        {
+            <tr>
+                <td><a href=@($"/items/{t.id}") alt="Edit"><span class="oi oi-pencil"></span></a></td>
+                <td>@t.name</td>
+                <td>@t.price</td>
+                <td>@t.nrofitems</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+
+    private IList<Item> items
+    { get; set; }
+    protected override void OnInitialized()
+    {
+        items = DataLayer.AllTrophies();
+    }
+    /*
+    protected override async Task OnInitializedAsync()
+    {
+        var serializer = new DataContractJsonSerializer(typeof(List<Item>));
+        // JavaScriptSerializer json_serializer = new JavaScriptSerializer();
+        client.DefaultRequestHeaders.Accept.Clear();
+         client.DefaultRequestHeaders.Accept.Add(
+            new MediaTypeWithQualityHeaderValue("application/vnd.github.v3+json"));
+
+       client.DefaultRequestHeaders.Add("User-Agent", ".NET Foundation Repository Reporter");
+
+
+        string uri = "http://localhost:8080/items";
+
+        var streamTask = client.GetStreamAsync(uri);
+
+        items = serializer.ReadObject(await streamTask) as List<Item>;
+        // User usera = serializer.ReadObject(await streamTask) as User;
+
+        //User usera = json_serializer.Deserialize<User>(streamTask.Result);
+    }
+    */
+
+}

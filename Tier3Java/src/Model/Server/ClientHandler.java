@@ -33,29 +33,14 @@ public class ClientHandler implements Runnable {
             String json= null;
             try {
                 json = reading();
+                Package pack = gson.fromJson(json, Package.class);
+                send(gson.toJson(readPackage(pack)));
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            Package pack = gson.fromJson(json, Package.class);
-            System.out.println(pack.getArgument()+pack.getJson()+pack.getTask()+pack.getArgument2());
-            User user = gson.fromJson(pack.getJson(), User.class);
-            System.out.println(user.getFullname()+user.getPassword()+user.getUsername());
-            if(pack.getArgument2()==2) {
-                try {
-                    User userad=new User(2,"userr","full","ema","parolas","user");
-                    User useradd=new User(2,"userr","full","ema","parolas","user");
-                    String jayjay=gson.toJson(userad);
-                    Package pacak=new Package(jayjay,"asd","SUCCESS");
-                    String response= gson.toJson(pacak);
-                    send(response);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-
-
         }
     }
+
     private String reading() throws IOException {
         //translating input
         byte[] lenBytes = new byte[4];
