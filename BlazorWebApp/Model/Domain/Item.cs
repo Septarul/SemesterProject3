@@ -9,7 +9,7 @@ namespace BlazorWebApp.Model.Domain
     public class Item
     {
         public int id { get; set; }
-        [RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$")]
+        [RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$", ErrorMessage = "No numbers or special characters allowed.")]
         [Required]
         [StringLength(100)]
         public string name { get; set; }
