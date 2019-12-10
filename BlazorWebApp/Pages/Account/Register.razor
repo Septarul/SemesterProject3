@@ -1,0 +1,53 @@
+@page "/register"
+@using BlazorWebApp.Model.Domain
+@using System.Text.Json
+@inject IJSRuntime JsRuntime
+
+    <EditForm Model="@user" OnValidSubmit="@SubmitRegister">
+        <DataAnnotationsValidator/>
+        <p>
+            <ValidationMessage For="@(()=>user.Username)"/>
+            <label for="username">Username: </label>
+            <InputText id="username" @bind-Value="user.Username" />
+        </p>
+        <p>
+            <ValidationMessage For="@(()=>user.Fullname)" />
+            <label for="fullname">Full Name: </label>
+            <InputText id="fullname" @bind-Value="user.Fullname" />
+        </p>
+        <p>
+            <ValidationMessage For="@(()=>user.Email)" />
+            <label for="email">Email: </label>
+            <InputText id="email" @bind-Value="user.Email" />
+        </p>
+        <p>
+            <ValidationMessage For="@(()=>user.Password)" />
+            <label for="pass">Password: </label>
+            <InputText type="password" id="pass" @bind-Value="user.Password" />
+        </p>
+        <p>
+            <ValidationMessage For="@(()=>user.Id)" />
+            <label for="vet">Vet Id: </label>
+            <InputNumber id="vet" @bind-Value="user.Id" />
+        </p>
+
+        <button type="submit">Register</button>
+    </EditForm>
+
+
+<div>
+    <span id="resultJson">
+    </span>
+</div>
+
+@code{
+    private User user=new User();
+
+
+    private async Task SubmitRegister()
+    {
+        await JsRuntime.InvokeVoidAsync("setElementTextById", "resultJson",JsonSerializer.Serialize(user));
+    }
+
+
+}

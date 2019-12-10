@@ -1,0 +1,60 @@
+﻿@page "/products"
+@using BlazorWebApp.Model.Domain
+@using System.Collections;
+
+<h2>View all products here</h2>
+
+@if (items == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table" style="width:300px">
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Race</th>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Race</th>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Race</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (var z = 0; z < items.Count - 2; z++)
+            {
+                <tr>
+                    <td width="33%"><img src="@items[z].Price" height="200" /></td>
+                    <td width="33%">@items[z].Name</td>
+                    <td width="33%">@items[z].Id</td>
+                    <td hidden>@(z++)</td>
+                    <td width="33%"><img src="@items[z].Price" height="200" /></td>
+                    <td width="33%">@items[z].Name</td>
+                    <td width="33%">@items[z].Id</td>
+                    <td hidden>@(z++)</td>
+                    <td width="33%"><img src="@items[z].Price" height="200" /></td>
+                    <td width="33%">@items[z].Name</td>
+                    <td width="33%">@items[z].Id</td>
+
+                </tr>
+            }
+
+        </tbody>
+    </table>
+
+}
+
+@code {
+    List<Item>
+    items { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+    Task<List<Item>> listAsync =null;
+        var cats = listAsync.GetAwaiter().GetResult();
+    }
+}
