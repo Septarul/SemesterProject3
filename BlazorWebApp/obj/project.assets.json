@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Asus\\.nuget\\packages\\": {},
+    "C:\\Users\\Sprite\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\Desktop\\Proiect Sep3 Cod\\BlazorWebApp\\BlazorWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Sprite\\Desktop\\SEP3\\SemesterProject3\\BlazorWebApp\\BlazorWebApp.csproj",
       "projectName": "BlazorWebApp",
-      "projectPath": "C:\\Users\\Asus\\Desktop\\Proiect Sep3 Cod\\BlazorWebApp\\BlazorWebApp.csproj",
-      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\Desktop\\Proiect Sep3 Cod\\BlazorWebApp\\obj\\",
+      "projectPath": "C:\\Users\\Sprite\\Desktop\\SEP3\\SemesterProject3\\BlazorWebApp\\BlazorWebApp.csproj",
+      "packagesPath": "C:\\Users\\Sprite\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sprite\\Desktop\\SEP3\\SemesterProject3\\BlazorWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sprite\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

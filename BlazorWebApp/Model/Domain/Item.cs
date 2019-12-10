@@ -8,9 +8,7 @@ namespace BlazorWebApp.Model.Domain
 {
     public class Item
     {
-
         public int Id { get; set; }
-
         [RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$")]
         [Required]
         [StringLength(30)]
@@ -23,14 +21,14 @@ namespace BlazorWebApp.Model.Domain
         [DataType(DataType.Currency)]
         [Required]
         public float Price { get; set; }
-
         [Required]
         [StringLength(250)]
         public string Description { get; set; }
         [Required]
         [StringLength(250)]
         public string Url { get; set; }
-
+        private int Quantity { get; set; }
+        private String Quantitytype { get; set; }
         public int Nrofitems { get; set; }
 
     }
