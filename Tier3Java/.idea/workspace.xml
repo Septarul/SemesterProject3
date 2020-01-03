@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4dae1e1-f750-42be-9807-145cdf0339d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Tier2Java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/MyDatabase.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/.vs/BlazorWebApp/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlazorWebApp/Shared/DataLayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BlazorWebApp/Shared/DataLayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier2Java/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier2Java/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tier2Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tier2Java/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tier3Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tier3Java.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +32,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../New folder/Tier3Java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sprite\Desktop\SEP3\SemesterProject3\Tier3Java" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sprite\Desktop\Tier3Java\src" />
       <recent name="C:\Users\Sprite\Desktop\Tier3Java" />
@@ -46,6 +56,20 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Tier3Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -64,6 +88,9 @@
       <workItem from="1575896437009" duration="9811000" />
       <workItem from="1575917795469" duration="1215000" />
       <workItem from="1575971587561" duration="1199000" />
+      <workItem from="1575988424918" duration="5284000" />
+      <workItem from="1576052601447" duration="219000" />
+      <workItem from="1576052840064" duration="40000" />
     </task>
     <servers />
   </component>

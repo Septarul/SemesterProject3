@@ -1,46 +1,55 @@
 ﻿@page "/products"
 @using BlazorWebApp.Model.Domain
-@using System.Collections;
+@using System.Net.Http.Headers
+@using System.Runtime.Serialization.Json
+@inject System.Net.Http.HttpClient client
 
 <h2>View all products here</h2>
 
-@if (items == null)
+
+@if (items == null || !items.Any())
 {
-    <p><em>Loading...</em></p>
+    <p>Nothing to see here</p>
 }
 else
 {
+    <button class="btn btn-primary" @onclick="Fetch">Fetch Todos</button>
     <table class="table" style="width:300px">
         <thead>
             <tr>
                 <th>Image</th>
                 <th>Name</th>
-                <th>Race</th>
+
                 <th>Image</th>
                 <th>Name</th>
-                <th>Race</th>
+
                 <th>Image</th>
                 <th>Name</th>
-                <th>Race</th>
+
             </tr>
         </thead>
         <tbody>
             @for (var z = 0; z < items.Count - 2; z++)
             {
-                <tr>
-                    <td width="33%"><img src="@items[z].Price" height="200" /></td>
-                    <td width="33%">@items[z].Name</td>
-                    <td width="33%">@items[z].Id</td>
-                    <td hidden>@(z++)</td>
-                    <td width="33%"><img src="@items[z].Price" height="200" /></td>
-                    <td width="33%">@items[z].Name</td>
-                    <td width="33%">@items[z].Id</td>
-                    <td hidden>@(z++)</td>
-                    <td width="33%"><img src="@items[z].Price" height="200" /></td>
-                    <td width="33%">@items[z].Name</td>
-                    <td width="33%">@items[z].Id</td>
+            <tr>
+                <td width="33%">@items[z].price</td>
+                <td width="33%"><img src="@items[z].url" height="200" /></td>
+                <br />
+                <span>@items[z].price</span>
 
-                </tr>
+                <td hidden>@(z++)</td>
+                <td width="33%">@items[z].price</td>
+                <td width="33%"><img src="@items[z].url" height="200" /></td>
+                <br />
+                <span>@items[z].price</span>
+
+                <td hidden>@(z++)</td>
+                <td width="33%">@items[z].price</td>
+                <td width="33%"><img src="@items[z].url" height="200" /></td>
+                <br />
+                <span>@items[z].price</span>
+
+            </tr>
             }
 
         </tbody>
@@ -49,12 +58,31 @@ else
 }
 
 @code {
-    List<Item>
-    items { get; set; }
 
-    protected override async Task OnInitializedAsync()
-    {
-    Task<List<Item>> listAsync =null;
-        var cats = listAsync.GetAwaiter().GetResult();
+    private List<Item> items
+    { get; set; }
+
+   protected override async Task OnInitializedAsync() {
+
+
+        var serializer = new DataContractJsonSerializer(typeof(List<Item>));
+        // JavaScriptSerializer json_serializer = new JavaScriptSerializer();
+        client.DefaultRequestHeaders.Accept.Clear();
+        /* client.DefaultRequestHeaders.Accept.Add(
+            new MediaTypeWithQualityHeaderValue("application/vnd.github.v3+json"));
+
+       client.DefaultRequestHeaders.Add("User-Agent", ".NET Foundation Repository Reporter");
+
+        */
+        string uri = "http://localhost:8080/items";
+
+        var streamTask = client.GetStreamAsync(uri);
+       
+        items = serializer.ReadObject(await streamTask) as List<Item>;
+        // User usera = serializer.ReadObject(await streamTask) as User;
+
+        //User usera = json_serializer.Deserialize<User>(streamTask.Result);
     }
+
+    private async Task Fetch() { }
 }

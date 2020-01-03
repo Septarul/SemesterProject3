@@ -6,11 +6,49 @@
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
-@code {
-    int currentCount = 0;
+<table class="table" style="width:300px">
+    <thead>
+        <tr>
+            <th>Image</th>
+            <th>Name</th>
 
-    void IncrementCount()
-    {
-        currentCount++;
+            <th>Image</th>
+            <th>Name</th>
+
+            <th>Image</th>
+            <th>Name</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td width="33%">sa mori tu</td>
+            <td width="33%"><img src="https://cdn.discordapp.com/attachments/634284593620713475/652083570613026816/unknown.png" height="200" /></td>
+            <br />
+            <span>124</span>
+
+
+            <td width="33%">sa mori tu</td>
+            <td width="33%"><img src="https://cdn.discordapp.com/attachments/634284593620713475/652083570613026816/unknown.png" height="200" /></td>
+            <br />
+            <span>412</span>
+
+            <td width="33%">sa mori tu</td>
+            <td width="33%"><img src="https://cdn.discordapp.com/attachments/634284593620713475/652083570613026816/unknown.png" height="200" /></td>
+            <br />
+            <span>1122</span>
+
+        </tr>
+        <br />
+        <span>sa mori tuuu</span>
+    </tbody>
+</table>
+
+    @code {
+        int currentCount = 0;
+
+        void IncrementCount()
+        {
+            currentCount++;
+        }
     }
-}

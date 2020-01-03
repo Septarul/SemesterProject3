@@ -113,6 +113,7 @@ public class Database
         statement = connection.createStatement();
         String sql = "select * from sepdb.users where Id=" + id;
         resultSet = statement.executeQuery(sql);
+        resultSet.next();
         User user = new User(resultSet.getInt(1), resultSet.getString(2), resultSet.getString(3), resultSet.getString(4), resultSet.getString(5),
                 resultSet.getString(6));
         return user;
@@ -121,8 +122,9 @@ public class Database
     public Item getItemById(int id) throws SQLException
     {
         statement = connection.createStatement();
-        String sql = "select * from sepdb.items where Id=" + id;
+        String sql = "select * from sepdb.item where Id=" + id;
         resultSet = statement.executeQuery(sql);
+        resultSet.next();
         Item item = new Item(resultSet.getInt(1), resultSet.getString(2),
                 resultSet.getString(3), resultSet.getFloat(4), resultSet.getString(5),
                 resultSet.getString(6), resultSet.getInt(7), resultSet.getString(8),

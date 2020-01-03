@@ -13,6 +13,7 @@ using BlazorWebApp.Data;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.Server;
+using BlazorWebApp.Shared;
 
 namespace BlazorWebApp
 {
@@ -37,6 +38,7 @@ namespace BlazorWebApp
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
+            services.AddSingleton<IDataLayer, DataLayer>();
 
             // is this needed?
             services.AddScoped<AuthenticationStateProvider, ServerAuthenticationStateProvider>();

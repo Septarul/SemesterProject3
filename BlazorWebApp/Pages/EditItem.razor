@@ -1,0 +1,58 @@
+﻿@page "/items/{Id:int}"
+@using BlazorWebApp.Model.Domain
+@using BlazorWebApp.Shared
+@using Microsoft.AspNetCore.Components;
+@inject IDataLayer DataLayer
+@inject NavigationManager NavigationManager
+
+<h1>Editing trophy "@item.name"</h1>
+
+<EditForm Model="@item" OnValidSubmit="@ValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <InputText Class="form-control" id="name" @bind-Value="item.name" />
+        <ValidationMessage For="@(() => item.name)" />
+    </div>
+    <div class="form-group">
+        <label for="source">Source:</label>
+        <InputText Class="form-control" id="source" @bind-Value="item.url" />
+    </div>
+    <div class="form-group">
+        <label for="url">Cool Factor:</label>
+
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <button class="btn btn-secondary" @onclick="Cancel">Cancel</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    Item item { get; set; }
+
+    protected override void OnInitialized()
+    {
+        item = DataLayer.TrophyForEditing(Id);
+    }
+
+    void BackToList()
+    {
+        NavigationManager.NavigateTo("/items");
+    }
+
+    void Cancel()
+    {
+        BackToList();
+    }
+
+    void ValidSubmit()
+    {
+        DataLayer.SubmitChanges(item);
+        BackToList();
+    }
+}
